@@ -1,0 +1,25 @@
+A Java program that operates on the command line.
+
+It is able to scan a given directory for .txt files, 
+and scan all of the words in all files. Words are 
+assumed to be character sequences separated by spaces.
+When read, the words are inserted into a Binary Tree, 
+which stores their count and name in alphabetic order.
+A recursive, in-order tree traversal is used to pull 
+the data from the Binary Tree and to store as an array.
+To display the data or write it to file, the Merge 
+Sort recursive sorting algorithm is used to recurse 
+over the array of words and their counts.
+
+Words are sorted in ascending order of count, with 
+words of the same count being sorted alphabetically. The 
+program is able to output to the terminal in ascending 
+and descending order of count. In descending order, 
+words of the same count are listed in reverse-alphabetic 
+order. Sorted word counts are also able to be written 
+as Comma Separated values (CSV) to a nominated file.
+
+This program was written to the specification provided 
+by the Assignment 1 parameters, in the Software 
+Technology 152 unit, Semester 1 2011, at Curtin 
+University, Western Australia.
